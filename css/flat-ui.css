@@ -181,23 +181,25 @@ you can use the generic selector below, but it's slower:
   border-top-color: #34495e !important;
 }
 .demo-headline {
-  padding: 73px 0 110px;
   text-align: center;
 }
 .demo-logo {
-  font-size: 90px;
+  font-size: 56px;
   font-weight: 900;
   letter-spacing: -2px;
   line-height: 100px;
+  float:left;
+  margin-top: 88px;
+  height: 60px;
 }
-.demo-logo .logo {
-  background: url(../images/demo/logo-mask.png) center 0 no-repeat;
-  background-size: 256px 186px;
-  height: 186px;
-  margin: 0 auto 26px;
+.logo {
+  background: url(../images/logo_200x200.png) center 0 no-repeat;
+  background-size: 200px 200px;
+  height: 200px;
+  float: left;
   overflow: hidden;
   text-indent: -9999em;
-  width: 256px;
+  width: 200px;
 }
 .demo-logo small {
   color: rgba(52, 73, 94, 0.30000000000000004);
