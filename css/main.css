@@ -5,28 +5,21 @@ body {
   font-family: 'Lato', sans-serif;
   padding: 20px 0 40px 0;
 }
+
+.logo {
+  width: 100%;
+  margin-top: 25px;
+}
 h1, h2, h3, h4 {
   font-family: 'Francois One', sans-serif;
 }
-h1 {
-  font-size: 60px;
-  margin-bottom: 30px;
-}
-h1 a {
-  color: #228d3e;
-}
-h1 a:hover {
-  text-decoration: none;
-  color: #228d3e;
-}
-.byline {
-  color: #222;
-}
 
 h2 {
+  font-size: 34px;
+}
+h3 {
   font-size: 24px;
 }
-
 p, li {
   font-size: 18px;
 }
